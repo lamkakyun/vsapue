@@ -61,6 +61,40 @@
   <ImportGroup Label="PropertySheets" />
   <PropertyGroup Label="UserMacros" />
   <ItemGroup>
+    <None Include="mytest\bar" />
+    <None Include="mytest\foo" />
+    <None Include="mytest\shell_with_signal.c.BAK" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="mytest\copyfile.c" />
+    <ClCompile Include="mytest\copyfile2.c" />
+    <ClCompile Include="mytest\create_a_file_with_a_hole.c" />
+    <ClCompile Include="mytest\err_show.c" />
+    <ClCompile Include="mytest\example_of_access_func.c" />
+    <ClCompile Include="mytest\example_of_chmod.c" />
+    <ClCompile Include="mytest\example_of_futimens.c" />
+    <ClCompile Include="mytest\example_of_strcpy.c" />
+    <ClCompile Include="mytest\example_of_umask.c" />
+    <ClCompile Include="mytest\example_of_va.c" />
+    <ClCompile Include="mytest\get_proccess_id.c" />
+    <ClCompile Include="mytest\get_uid_gid.c" />
+    <ClCompile Include="mytest\hello.c" />
+    <ClCompile Include="mytest\hello.cpp" />
+    <ClCompile Include="mytest\ls.c" />
+    <ClCompile Include="mytest\myapue_err.c" />
+    <ClCompile Include="mytest\print_flag_for_fd.c" />
+    <ClCompile Include="mytest\print_sysconf_pathconf.c" />
+    <ClCompile Include="mytest\print_type_of_file.c" />
+    <ClCompile Include="mytest\recurse_dir_and_count_file_type.c" />
+    <ClCompile Include="mytest\shell.c" />
+    <ClCompile Include="mytest\shell_with_signal.c" />
+    <ClCompile Include="mytest\test.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="mytest\error.o" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="mytest\myapue.h" />
   </ItemGroup>
   <ItemDefinitionGroup />
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

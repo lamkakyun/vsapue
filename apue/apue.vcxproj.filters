@@ -1,2 +1,100 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" />
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="mytest">
+      <UniqueIdentifier>{bfbfa1bc-01e5-46ee-bcff-d13404b0442b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="mytest\bar">
+      <Filter>mytest</Filter>
+    </None>
+    <None Include="mytest\foo">
+      <Filter>mytest</Filter>
+    </None>
+    <None Include="mytest\shell_with_signal.c.BAK">
+      <Filter>mytest</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="mytest\copyfile.c">
+      <Filter>mytest</Filter>
+    </ClCompile>
+    <ClCompile Include="mytest\copyfile2.c">
+      <Filter>mytest</Filter>
+    </ClCompile>
+    <ClCompile Include="mytest\create_a_file_with_a_hole.c">
+      <Filter>mytest</Filter>
+    </ClCompile>
+    <ClCompile Include="mytest\err_show.c">
+      <Filter>mytest</Filter>
+    </ClCompile>
+    <ClCompile Include="mytest\example_of_access_func.c">
+      <Filter>mytest</Filter>
+    </ClCompile>
+    <ClCompile Include="mytest\example_of_chmod.c">
+      <Filter>mytest</Filter>
+    </ClCompile>
+    <ClCompile Include="mytest\example_of_futimens.c">
+      <Filter>mytest</Filter>
+    </ClCompile>
+    <ClCompile Include="mytest\example_of_strcpy.c">
+      <Filter>mytest</Filter>
+    </ClCompile>
+    <ClCompile Include="mytest\example_of_umask.c">
+      <Filter>mytest</Filter>
+    </ClCompile>
+    <ClCompile Include="mytest\example_of_va.c">
+      <Filter>mytest</Filter>
+    </ClCompile>
+    <ClCompile Include="mytest\get_proccess_id.c">
+      <Filter>mytest</Filter>
+    </ClCompile>
+    <ClCompile Include="mytest\get_uid_gid.c">
+      <Filter>mytest</Filter>
+    </ClCompile>
+    <ClCompile Include="mytest\hello.c">
+      <Filter>mytest</Filter>
+    </ClCompile>
+    <ClCompile Include="mytest\hello.cpp">
+      <Filter>mytest</Filter>
+    </ClCompile>
+    <ClCompile Include="mytest\ls.c">
+      <Filter>mytest</Filter>
+    </ClCompile>
+    <ClCompile Include="mytest\myapue_err.c">
+      <Filter>mytest</Filter>
+    </ClCompile>
+    <ClCompile Include="mytest\print_flag_for_fd.c">
+      <Filter>mytest</Filter>
+    </ClCompile>
+    <ClCompile Include="mytest\print_sysconf_pathconf.c">
+      <Filter>mytest</Filter>
+    </ClCompile>
+    <ClCompile Include="mytest\print_type_of_file.c">
+      <Filter>mytest</Filter>
+    </ClCompile>
+    <ClCompile Include="mytest\recurse_dir_and_count_file_type.c">
+      <Filter>mytest</Filter>
+    </ClCompile>
+    <ClCompile Include="mytest\shell.c">
+      <Filter>mytest</Filter>
+    </ClCompile>
+    <ClCompile Include="mytest\shell_with_signal.c">
+      <Filter>mytest</Filter>
+    </ClCompile>
+    <ClCompile Include="mytest\test.c">
+      <Filter>mytest</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="mytest\error.o">
+      <Filter>mytest</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="mytest\myapue.h">
+      <Filter>mytest</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
