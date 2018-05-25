@@ -7,7 +7,7 @@ void myprintf(const char *, ...);
 
 int main(void)
 {
-	myprint("s ccc d%.\n", "hello", 'j', 'e', 't', 100);
+	myprintf("s ccc d%.\n", "hello", 'j', 'e', 't', 100);
 	return 0;
 }
 
@@ -37,7 +37,8 @@ void myprintf(const char *format_str, ...)
 		}
 		else if (*format_str == 'c')
 		{
-			putchar(va_arg(arg, char));
+			//putchar(va_arg(arg, char));
+			putchar(va_arg(arg, int));
 		}
 		else if (*format_str == 'd')
 		{
