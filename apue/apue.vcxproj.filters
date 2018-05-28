@@ -2,19 +2,8 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="mytest">
-      <UniqueIdentifier>{bfbfa1bc-01e5-46ee-bcff-d13404b0442b}</UniqueIdentifier>
+      <UniqueIdentifier>{aa2b733c-b581-493e-92ba-69cab3941bd8}</UniqueIdentifier>
     </Filter>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="mytest\bar">
-      <Filter>mytest</Filter>
-    </None>
-    <None Include="mytest\foo">
-      <Filter>mytest</Filter>
-    </None>
-    <None Include="mytest\shell_with_signal.c.BAK">
-      <Filter>mytest</Filter>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="mytest\copyfile.c">
@@ -47,6 +36,9 @@
     <ClCompile Include="mytest\example_of_va.c">
       <Filter>mytest</Filter>
     </ClCompile>
+    <ClCompile Include="mytest\file_walker.c">
+      <Filter>mytest</Filter>
+    </ClCompile>
     <ClCompile Include="mytest\get_proccess_id.c">
       <Filter>mytest</Filter>
     </ClCompile>
@@ -63,6 +55,9 @@
       <Filter>mytest</Filter>
     </ClCompile>
     <ClCompile Include="mytest\myapue_err.c">
+      <Filter>mytest</Filter>
+    </ClCompile>
+    <ClCompile Include="mytest\myapue_path_alloc.c">
       <Filter>mytest</Filter>
     </ClCompile>
     <ClCompile Include="mytest\print_flag_for_fd.c">
@@ -86,9 +81,44 @@
     <ClCompile Include="mytest\test.c">
       <Filter>mytest</Filter>
     </ClCompile>
+    <ClCompile Include="mytest\test_apue.c">
+      <Filter>mytest</Filter>
+    </ClCompile>
+    <ClCompile Include="mytest\test_myapue.c">
+      <Filter>mytest</Filter>
+    </ClCompile>
+    <ClCompile Include="mytest\test_excel.c">
+      <Filter>mytest</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="mytest\shell_with_signal.c.BAK">
+      <Filter>mytest</Filter>
+    </None>
+    <None Include="mytest\a.out">
+      <Filter>mytest</Filter>
+    </None>
+    <None Include="mytest\bar">
+      <Filter>mytest</Filter>
+    </None>
+    <None Include="mytest\foo">
+      <Filter>mytest</Filter>
+    </None>
+    <None Include="mytest\tmp.xls">
+      <Filter>mytest</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Object Include="mytest\error.o">
+      <Filter>mytest</Filter>
+    </Object>
+    <Object Include="mytest\myapue_err.o">
+      <Filter>mytest</Filter>
+    </Object>
+    <Object Include="mytest\myapue_path_alloc.o">
+      <Filter>mytest</Filter>
+    </Object>
+    <Object Include="mytest\pathalloc.o">
       <Filter>mytest</Filter>
     </Object>
   </ItemGroup>
